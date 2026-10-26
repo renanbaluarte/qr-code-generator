@@ -1,0 +1,25 @@
+:root {
+  --bulma-link-h: 217deg;
+  --bulma-link-s: 100%;
+  --bulma-link-l: 50%;
+  --bulma-danger-h: 350deg;
+  --bulma-danger-s: 95%;
+  --bulma-danger-l: 55%;
+}
+
+html,
+body {
+  background: #ffffff;
+}
+
+.preview {
+  display: grid;
+  place-items: center;
+  gap: 1rem;
+  min-height: 320px;
+}
+
+.preview img {
+  width: 256px;
+  height: 256px;
+}
